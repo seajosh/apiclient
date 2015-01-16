@@ -1,7 +1,8 @@
 import json
 
 from urllib3 import connection_from_url
-from urllib import urlencode
+# from urllib import urlencode
+from six.moves.urllib import urlencode
 
 
 class APIClient(object):
